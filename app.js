@@ -154,7 +154,7 @@ function clearTasksFromLocalStorage() {
 
 //Filter Task
 function filterTask(e) {
-    const text = e.target.value.toLowerCase; //this helps get the value 
+    const text = e.target.value.toLowerCase(); //this helps get the value 
 
     document.querySelectorAll('.collection-item').forEach(
         function(Task) {
